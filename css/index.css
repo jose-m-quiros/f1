@@ -77,6 +77,29 @@ body {
   margin-bottom: 5em;
 }
 
+.carousel-item img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 600px; /* Establece una altura fija para todas las imágenes */
+  object-fit: contain; /* Ajusta la imagen para que cubra el área establecida, manteniendo su relación de aspecto */
+}
+
+.carousel-caption {
+  max-width: 60%; /* Asegura que la leyenda no sea más ancha que el contenedor */
+  padding: 0 20px; /* Añade un poco de relleno para que el texto no toque los bordes */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption .carru {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Añade un fondo semitransparente para mejorar la legibilidad */
+  border-radius: 10px; /* Opcional: redondea las esquinas del contenedor del texto */
+}
+
 .carousel-caption,
 .d-none,
 .d-md-block {
@@ -94,7 +117,7 @@ body {
 }
 
 .texto-carrusel {
-  margin: -5em 10px 6em 10px;
+  margin: 2em 10px 6em 10px;
 }
 
 .card {
@@ -407,5 +430,54 @@ a > i:hover {
 @media (max-width: 839px) {
   .carru {
     display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 650px) {
+  .carousel {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 580px) {
+  .carousel {
+    margin-top: -4em;
+  }
+}
+
+@media (max-width: 520px) {
+  .carousel {
+    margin-top: -6em;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    margin-top: -7em;
+  }
+}
+
+
+@media (max-width: 828px) {
+  .texto-carrusel {
+    margin-top: -4em;
+  }
+}
+
+@media (max-width: 604px) {
+  .texto-carrusel {
+    margin-top: -7em;
+  }
+}
+
+@media (max-width: 500px) {
+  .texto-carrusel {
+    margin-top: -10em;
   }
 }
