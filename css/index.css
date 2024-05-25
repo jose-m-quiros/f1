@@ -47,6 +47,7 @@ body {
   margin-top: 2em;
 }
 
+
 .card-title {
   text-align: center;
   margin-top: 0.8em;
@@ -160,9 +161,9 @@ body {
 }
 
 .contenido img {
-  max-width: 50%; /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
-  height: auto; /* Mantiene la proporción de aspecto de la imagen */
-  margin-top: 20px; /* Espacio superior para separar la imagen del texto */
+  max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+  display: block; /* Elimina cualquier espacio adicional debajo de las imágenes */
+  margin: 20px auto; /* Centra las imágenes horizontalmente con un espacio entre ellas */
 }
 
 .espacio {
@@ -462,7 +463,6 @@ a > i:hover {
     margin-top: -7em;
   }
 }
-
 
 @media (max-width: 828px) {
   .texto-carrusel {
