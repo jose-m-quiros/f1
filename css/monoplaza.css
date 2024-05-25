@@ -388,43 +388,27 @@ a > i:hover {
   }
 }
 
-@media (max-width: 887px) {
-  .carousel {
-    margin-top: -5em;
-  }
-}
 
 @media (max-width: 731px) {
   .carousel {
-    margin-top: -7em;
+    margin-top: -3em;
   }
 }
 
 @media (max-width: 619px) {
   .carousel {
-    margin-top: -13em;
+    margin-top: -8em;
   }
 }
 
 @media (max-width: 520px) {
   .carousel {
-    margin-top: -15em;
+    margin-top: -10em;
   }
 }
 
 @media (max-width: 491px) {
   .carousel {
-    margin-top: -20em;
-  }
-}
-@media (max-width: 426px) {
-  .carousel {
-    margin-top: -24em;
-  }
-}
-
-@media (max-width: 431px) {
-  .resultado-monoplaza {
-    margin-top: -10em;
+    margin-top: -9em;
   }
 }
