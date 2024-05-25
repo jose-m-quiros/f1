@@ -11,13 +11,13 @@ body {
   padding: 0;
   background-color: #cdd5f693 !important;
 }
-
 .navbar-logo {
   width: 50px;
   height: auto;
   margin-right: 10px;
   border-radius: 60px;
 }
+
 
 .navbar-text {
   font-size: 16px;
@@ -161,7 +161,7 @@ body {
 }
 
 .contenido img {
-  max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+  max-width: 55%; /* Asegura que las imágenes no sean más anchas que su contenedor */
   display: block; /* Elimina cualquier espacio adicional debajo de las imágenes */
   margin: 20px auto; /* Centra las imágenes horizontalmente con un espacio entre ellas */
 }
@@ -481,3 +481,17 @@ a > i:hover {
     margin-top: -10em;
   }
 }
+
+@media (max-width: 900px) {
+  .contenido img {
+    max-width: 70%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .contenido img {
+    max-width: 100%;
+  }
+}
+
