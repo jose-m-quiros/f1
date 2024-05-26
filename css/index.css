@@ -211,6 +211,15 @@ footer {
   color: white;
 }
 
+.center1 img {
+  width: 4em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 0 0 0 15px;
+}
+
 .center1 > a,
 .col > .sub1,
 .separacion > a {
@@ -259,7 +268,7 @@ footer {
 .contact-column {
   flex: 1 0 200px;
   margin-right: 20px;
-  margin-top: 30px;
+  
 }
 
 .abajo {
@@ -394,7 +403,7 @@ a > i:hover {
 
 @media (min-width: 492px) and (max-width: 700px) {
   .services-column {
-    margin-top: 1%;
+    margin-top: 12%;
   }
   .info-column {
     margin-top: 15%;
@@ -407,6 +416,12 @@ a > i:hover {
   }
   .services-column {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 491px) {
+  .services-column {
+    margin-top: 5em;
   }
 }
 
